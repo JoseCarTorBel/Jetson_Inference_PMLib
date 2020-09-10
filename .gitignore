@@ -1,3 +1,15 @@
+/Debug/                                                                                                                                                                                                            
+/Release/                                                                                                                                                                                                          
+/build/                                                                                                                                                                                                            
+/data/                                                                                                                                                                                                             
+/img/                                                                                                                                                                                                              
+*/CMakeFiles/                                                                                                                                                                                                      
+*.cmake                                                                                                                                                                                                            
+*.prefs                                                                                                                                                                                                            
+*.Makefile                                                                                                                                                                                                         
+.project                                                                                                                                                                                                           
+.cproject
+
 # Prerequisites
 *.d
 
@@ -30,3 +42,6 @@
 *.exe
 *.out
 *.app
+
+
+

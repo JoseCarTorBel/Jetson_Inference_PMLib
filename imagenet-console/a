@@ -1,0 +1,10 @@
+/usr/bin/c++   -std=c++11  \
+      CMakeFiles/imagenet-console.dir/imagenet-console.cpp.o  \
+      -L/home/nvidia/Inference_jetson-inference-batch/aarch64/lib \
+      /usr/local/cuda-10.0/lib64/libcudart_static.a \
+      -lpthread -ldl -lrt -lnvcaffe_parser -lnvinfer \
+      ../aarch64/lib/libjetson-inference.so \
+      /home/nvidia/software/PMLib/Python/client/libpmlib.so \
+      -o ../aarch64/bin/imagenet-console
+
+#   -lpthread -ldl -lrt -lnvcaffe_parser -lnvinfer \
